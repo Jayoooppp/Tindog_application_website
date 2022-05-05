@@ -1,0 +1,225 @@
+/* title section */
+#title-div {
+    
+    /* the Reason for commenting the height of this division is because when i was setting the height of div to particular
+    value then while runnin website on mobile or tablet size it was overlapping the image  */
+    /* height: 40rem; */
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+#heading {
+    font-family: 'Montserrat-black', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+
+#container-1 {
+    padding: 3% 15% 0%;
+}
+
+
+
+#download-buttons {
+    margin: 40px 5px;
+}
+
+
+
+
+/* Navigation Bar */
+
+#brand-link {
+    margin: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 20px;   
+
+
+}
+
+#nav-link {
+    margin: 5px;
+
+
+}
+
+.nav-item{
+    padding: 0px 18px;
+}
+
+.nav-link{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+/* title-image  */
+.main-image {
+    width: 60%;
+    top:1rem;
+    margin-left: 4rem;
+    transform: rotate(25deg);
+    position: relative;
+}
+
+
+
+/* Middle Row */
+
+#container-2 {
+    position: relative;
+    padding: 5% 15%;
+    white-space: normal;
+    
+}
+
+
+
+.middle-icon{
+    display: flex;
+    justify-content: center;
+    font-size: 3.5rem;
+    color: #ef8172;
+    padding-bottom: 0.8rem;
+
+    
+}
+
+i:hover{
+    color: #ff4c68;
+}
+
+.feature-title{
+    text-align: center;
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 1.5rem;
+}
+
+.feature-dec{
+    text-align: center;
+    color: #8f8f8f;
+}
+
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+
+/* testimonials section */
+#testimonials{
+    text-align: center;
+    
+}
+
+.carousel-item{
+    padding: 7% 15%;
+
+}
+
+.testimonials-text{
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonials-image{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+#press{
+    text-align: center;
+    padding-bottom: 20px;
+    
+
+}
+
+.press-logo{
+    width: 15%;
+    margin: 30px 30px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+padding: 100px;
+padding-bottom: 40px;
+text-align: center;
+
+}
+
+.pricing-col{
+    padding: 2% 3%;
+}
+.pricing-title ,  .cta-title{
+    font-family: 'Montserrat-bold', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+
+
+/*cta section  */
+#cta{
+   
+    text-align: center;
+  
+}
+
+.footer-cta{
+    padding: 2% 15%;
+    
+}
+
+#cta-buttons{
+    margin: 30px;
+}
+
+/* footer section */
+#footer{
+    text-align: center;
+    color: rgb(71, 71, 71);
+}
+
+.footer-icon{
+    margin: 30px 10px;
+    color:rgb(51, 51, 51)
+}
+
+
+/* Sections */
+
+.colored-section{
+    background-color: #ff4c67;
+    color: #fff;
+
+
+}
+
+.white-section{
+    background-color: #fff;
+        
+
+}
+
+
+/* media query */
+@media (max-width:1029px) {
+    .main-image{
+        position: static;
+    transform: rotate(0deg);
+    }
+    #title{
+        text-align: center;
+    }
+
+    
+}
